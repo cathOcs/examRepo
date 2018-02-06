@@ -1,5 +1,6 @@
 <?php
-    
+     include 'connect2.inc.php';
+
 ?>
 <html>
 
@@ -44,6 +45,6 @@
 		}
 	</script>
 <?php 
-    $dbconn->close();
+    $conn->close();
 </body>
 </html>
